@@ -1,0 +1,18 @@
+{
+  "name": "smart-itsm-portal",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "backend": "cd backend-new && npm start",
+    "backend:dev": "cd backend-new && npm run dev",
+    "seed": "cd backend-new && npm run seed",
+    "install:all": "cd backend-new && npm install"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
+  }
+}
